@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: "Early Imprints"
+title: Early Imprints
 subtitle: "Bonding and attachment"
 url: "https://earlyimprints.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
