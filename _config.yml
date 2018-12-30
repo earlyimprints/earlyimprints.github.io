@@ -31,7 +31,10 @@ markdown: kramdown
 # Category descriptions (for archive pages)
 descriptions:
   - cat: workshops
-    desc: "Posts describing Jekyll setup techniques."
+    desc: "Birth process workshops"
+
+  - cat: training
+    desc: "Posts related to training"
 
   - cat: general
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+    desc: "Posts of general interest"
