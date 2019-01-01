@@ -26,7 +26,7 @@ permalink: /training/
 <section id="intro">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
+      <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title">
             <h1>Pre and Perinatal Training</h1>
@@ -36,11 +36,24 @@ permalink: /training/
 			<p>Lectures provide a sound framework of understanding, and footage of family sessions show examples of how to apply the material in your practice.</p>
          </div>
       </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="img/cyb2016-600.jpg" alt="Charisse">
+    <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <img src="img/cotation.png" alt="IMG">
+                <p>{{ tm.testimonial }}</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="Pepole">
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
         </div>
-      </div><!-- .col-md-5 close -->
+        {% endif %}
+      </div>
     </div>
   </div>
 </section>
@@ -195,24 +208,7 @@ permalink: /training/
         </div>
         {% endif %}
       </div>
-      <div class="col-md-6">
-        {% if site.data.testimonials.size > 0 %}
-        <div class="testimonial-carousel">
-          <div id="testimonial-slider" class="owl-carousel">
-            {% for tm in site.data.testimonials %}
-            <div>
-                <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
-                <div class="user">
-                  <img src="{{ tm.image }}" alt="Pepole">
-                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-                </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-        {% endif %}
-      </div>
+  
     </div>
   </div>
 </section>
