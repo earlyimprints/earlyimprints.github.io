@@ -63,7 +63,7 @@ permalink: /training/
   <div class="row">
     <div class="col-md-6">
       <h2>Training Objectives</h2>
-	  We will develop the following knowledge and skills:
+	  <p>We will develop the following knowledge and skills:
 		<ul>
 			<li>Understand the pre and perinatal model and explore our own early history from conception through birth and early childhood.
 			<li>Develop foundational skills for pre and perinatal work.
@@ -166,6 +166,50 @@ permalink: /training/
     </div>
   </div>
 </section>
+
+<!-- Details Start -->
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h1>Training details</h1>
+          </div>
+          <h2>Where</h2>
+		  <p>Anstruther Scotland</p>
+		  <h2>When</h2>
+		  <ul>
+			<li>Module 1 -- Early September 2019
+			<li>Module 2 -- Late February 2020
+			<li>Module 3 -- Early June 2020
+			<li>Module 4 -- Late September 2020
+		  </ul>
+         </div>
+      </div><!-- .col-md-6 close -->
+    <div class="col-md-6">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <img src="/img/cotation.png" alt="IMG">
+                <p>{{ tm.testimonial }}</p>
+                <div class="user">
+                  <img src="{{ tm.image }}" alt="Pepole">
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- Call to action Start -->
 <section id="call-to-action">
   <div class="container">

@@ -297,6 +297,10 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 10px;
   color: #7B7B7B;
 }
+#testimonial .block li {
+  padding-top: 10px;
+  color: #5C5C5C;
+}
 #testimonial .counter-box li {
   width: 50%;
   float: left;
