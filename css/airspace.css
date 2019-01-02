@@ -286,10 +286,10 @@ font header .navbar-default .navbar-nav li a:hover {
 	content Start
 --*/
 #testimonial {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #testimonial .block h2 {
-  line-height: 27px;
+  line-height: 7px;
   color: #5C5C5C;
   padding-top: 10px;
 }
