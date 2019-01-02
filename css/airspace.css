@@ -669,6 +669,9 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	contact-form Start
 --*/
+#contact-form .block li{
+  color: #FFFFFF;
+}
 #contact-form {
   padding-top: 70px;
   padding-bottom: 35px;
