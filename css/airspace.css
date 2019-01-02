@@ -674,6 +674,9 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 70px;
   padding-bottom: 35px;
 }
+#contact-form .address-block li{
+  color: #fff;
+}
 #contact-form .block form .form-group {
   padding-bottom: 15px;
   margin: 0px;
