@@ -678,7 +678,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
   display: block;
 }
-#contact-form .block ul{
+#contact-form .block .address-block ul{
   display: block;
 }
 #contact-form .block form .form-group {
