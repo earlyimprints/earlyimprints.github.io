@@ -685,6 +685,13 @@ font header .navbar-default .navbar-nav li a:hover {
   box-shadow: none;
   width: 100%;
 }
+#contact-form .block form .form-group textarea {
+  background: #F6F8FA;
+  height: 135px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%;
+}
 #contact-form .block form .form-group-2 {
   padding-bottom: 15px;
   margin: 0px;
