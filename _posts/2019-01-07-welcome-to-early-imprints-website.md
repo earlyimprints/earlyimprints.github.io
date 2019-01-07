@@ -10,4 +10,4 @@ My intention for this site is to keep you informed of developments in the world 
 
 In addition, I will also occasionally make posts here with some of my thoughts and perhaps items I find to be of interest, that I wish to share with you.
 
-Feel free to contact me via my contact details at the [contact me page](../../../contact.html) of the web site.  Thanks for paying a visit.
+Feel free to contact me via my contact details at the [contact me page](../../../contact/) of the web site.  Thanks for paying a visit.
