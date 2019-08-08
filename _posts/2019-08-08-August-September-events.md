@@ -1,6 +1,6 @@
 ---
 layout: post
-title: August and September 2019 events
+title: August through October 2019 events
 date: 2019-08-08 14:32:00
 author: Charisse
 ---
