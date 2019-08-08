@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oxytocin:  The Hormone of Love
+title: Oxytocin The Hormone of Love
 date: 2019-08-01 14:32:00
 author: Charisse
 ---
