@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Book published: "Welcome to school"
-date: 2024-12-22 16:32:00
+title: Book published in December 2024 "Welcome to school"
+date: 2024-12-22 13:32:00
 author: Charisse
 ---
 
